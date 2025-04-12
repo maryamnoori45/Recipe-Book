@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Recipe Book</title>
+</head>
+<body>
+    <!-- start nav -->
+    <nav>
+        <ul>
+
+        <li><a href="index.html">Home</a></li>
+        <li> <a href="add recipe.html">Add Recipe</a></li>
+        <li> <a href="recipe list.html">Recipe List</a></li>
+    </ul>
+    </nav>
+     <!-- end nav -->
+      <h2>Make Your Recipe Part of This Book</h2>
+      <!-- start main -->
+       <main>
+        <h3>fill out the form below</h3>
+        <!-- start form -->
+         <form>
+            <label for="name">Recipe Name:</label>
+            <input type="text" placeholder="kebab,sushi,..."required>
+            <br>
+            <br>
+            <label for="ingredients">Ingredients you need:</label>
+            <textarea name="ingredients" id="ingredients" placeholder="1 spoon oil, 2 cup suger, ..."required></textarea>
+            <br>
+            <br>
+            <label for="instruction">Instruction of your recipe:</label>
+            <textarea name="instruction" id="instraction" placeholder="first oil then ..."required></textarea>
+            <br>
+            <br>
+            <label for="image">add your dish image URL:</label>
+            <input type="url "placeholder="add image "required>
+            <br>
+            <br>
+            <label for="recipe category">Recipe Category:</label>
+            <select name="category" id="category">
+                <option value="">Choose...</option>
+                <option value="Main course">Main course</option>
+                <option value="snacks">Snacks</option>
+                <option value="desserts">Desserts</option>
+                <option value="Appetizers">Appetizers</option>
+                <option value="Beverage">Beverage</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit">Save in My Book</button>
+
+         </form>
+         <!-- end form -->
+       </main>
+       <!-- end main -->
+        <br>
+        <br>
+         <!-- start footer -->
+         <footer>&copy ; 2025 My Recipe Book</footer>
+         <!-- end footer -->
+
+</body>
+</html>
